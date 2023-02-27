@@ -1,11 +1,13 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
   color: #ffffff;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
 }
 
 body{
   padding: 60px;
-  background-image: url(https://i.redd.it/bpxxqqvps4h91.gif);
+  background-image: url(bpxxqqvps4h91.gif);
+  /* background-image: url(https://i.redd.it/bpxxqqvps4h91.gif); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -55,13 +57,16 @@ hr{
 }
 .card{
   align-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 10px;
   margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.25);
   max-width: 40%;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
 
 }
 .card p{
@@ -81,4 +86,7 @@ hr{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.category{
+  margin-top: 50px;
 }
